@@ -5,7 +5,7 @@ import threading
 import time
 import customtkinter as ctk
 
-# filepath: c:\Users\JAH\Desktop\python\new104(button)02.py
+
 import tkinter.messagebox as msg
 
 ctk.set_appearance_mode("system")
@@ -743,4 +743,5 @@ class TodoApp(ctk.CTk):
 
 if __name__ == "__main__":
     app = TodoApp()
+
     app.mainloop()
